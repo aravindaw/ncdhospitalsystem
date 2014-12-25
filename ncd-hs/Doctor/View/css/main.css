@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 21px;
+	color: #666;
+	background-image: url(../images/account_bg.jpg);
+	background-repeat: repeat;
+}
+p {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 7px;
+	padding-left: 0px;
+}
+a:link, a:active, a:visited {
+	color: #666;
+	text-decoration: underline;
+}
+a:hover {
+	color: #27A8D8;
+}
+.clear {
+	clear: both;
+}
+.commonField {
+	padding: 3px;
+	color: #333;
+	font-size: 11px;
+	border: 2px solid #999;
+	width: 240px;
+}
+#headerWrapper {
+	background-color: #1BA7D6;
+}
+#headerWrapper .header {
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#headerWrapper .header .logo {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#mainMenuWrapper {
+	background-color: #333;
+/*	background-image: url(../images/account_gradient.png);*/
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+#mainMenuWrapper .mainMenu {
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	color: #CCC;
+}
+#mainMenuWrapper .mainMenu a {
+	color: #CCC;
+}
+#mainMenuWrapper .mainMenu ul {
+	margin: 0px;
+	padding: 0px;
+}
+#mainMenuWrapper .mainMenu ul li {
+	float: left;
+	list-style-type: none;
+}
+#mainMenuWrapper .mainMenu ul li a {
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	padding-top: 5px;
+	padding-right: 7px;
+	padding-bottom: 5px;
+	padding-left: 7px;
+}
+#mainMenuWrapper .mainMenu ul li a:hover , #mainMenuWrapper .mainMenu ul .current{
+	color: #FFF;
+	background-color: #1BA7D6;
+/*	background-image: url(../images/account_gradient.png);*/
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+#mainMenuWrapper .mainMenu .userInfo {
+	font-size: 11px;
+	float: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#contentWrapper {
+}
+#contentWrapper #content {
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#contentWrapper #content .submenu {
+	float: right;
+	background-color: #27A8D8;
+/*	background-image: url(../images/account_gradient.png);*/
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+#contentWrapper #content .submenu ul {
+	margin: 0px;
+	padding: 0px;
+}
+#contentWrapper #content .submenu ul li {
+	float: left;
+	list-style-type: none;
+}
+#contentWrapper #content .submenu ul li a {
+	display: block;
+	color: #FFF;
+	margin-right: 5px;
+	padding: 5px;
+	text-decoration: none;
+}
+#contentWrapper #content .submenu ul li a:hover {
+	color: #FFF;
+	background-color: #333;
+/*	background-image: url(../images/account_gradient.png);*/
+}
+.footer {
+	text-align: right;
+	width: 980px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
